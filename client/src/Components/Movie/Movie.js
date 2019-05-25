@@ -8,8 +8,8 @@ import MovieInfoSection from "../Page_Stuff/MovieInfoSection/MovieInfoSection";
 import BtnWatchList from "../Page_Stuff/BtnWatchList/BtnWatchList";
 import ShowMoviePath from "../Page_Stuff/ShowMoviePath/ShowMoviePath";
 import MovieList from "../MovieList/MovieList";
-//import Carousel from '@brainhubeu/react-carousel';
-//import '@brainhubeu/react-carousel/lib/style.css';
+// import Carousel from '@brainhubeu/react-carousel';
+// import '@brainhubeu/react-carousel/lib/style.css';
 
 import { timeout } from "q";
 
