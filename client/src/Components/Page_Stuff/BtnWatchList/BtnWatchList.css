@@ -1,5 +1,5 @@
-.btnwatchlist {
-    background: #16d47b;
+/* .btnwatchlist {
+    background: #5516d4;
     width: 150px;
     height: 50px;
     min-height: 50px;
@@ -15,6 +15,54 @@
     font-family: 'Abel', sans-serif;
     font-size:42px;
     padding: 20px;
-  }
+  } */
 
+
+  .btnwatchlist {
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: hsl(236, 32%, 26%);
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
+    
+    
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+    float: right;
+    min-height: 50px;
+    
+  }
+  
+  .btnwatchlist::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    bottom: 100%;
+    right: 100%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: #3cefff;
+    transform-origin: center;
+    transform: translate(50%, 50%) scale(0);
+    transition: transform 0.45s ease-in-out;
+  }
+  
+  .btnwatchlist:hover {
+    cursor: pointer;
+    color: #161616;
+  }
+  
+  .btnwatchlist:hover::before {
+    transform: translate(50%, 50%) scale(15);
+  }
+  
   
