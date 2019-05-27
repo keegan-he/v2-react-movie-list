@@ -30,6 +30,7 @@
   font-family: 'Abel', sans-serif;
   font-size:48px;
   color: #fff;
+  text-shadow: 2px 2px 8px rgba(73, 71, 163, 0.447);
 }
 
 .homeimage-text p {
@@ -37,6 +38,10 @@
   font-size: 22px;
   line-height: 26px;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.66);
+  border-radius: 20px;
+  text-shadow: 2px 2px 8px rgba(73, 71, 163, 0.447);
+
 }
 
 @media screen and (max-width: 720px) {
