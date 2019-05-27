@@ -6,11 +6,12 @@
     right: 0;
     padding: 50px;
     z-index:1000;
+
 }
 
 .modalstyle{
-    background-color: #ffffff;
-    border-radius: 5px;
+    background-color: #d0c7f2;
+    border-radius: 20px;
     max-width: 500px;
     min-height: 300px;
     margin: 0 auto;
@@ -21,4 +22,5 @@
 .footerStyle {
     position: absolute;
     bottom: 20px;
+    
 }
